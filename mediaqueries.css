@@ -71,6 +71,7 @@
     .contact-info-upper-container, 
     .btn-container{
         flex-wrap: wrap;
+        gap: 1rem;
     }
     .contact-info-container{
         margin: 0;
@@ -104,7 +105,7 @@
         font-size: 2rem;
     }
     .text-container{
-        text-align: justify;
+        text-align:justify;
     }
 }
 
