@@ -107,6 +107,9 @@
     .text-container{
         text-align:justify;
     }
+    .details-container {
+        width: calc(50% - 20px); /* Two items per row on smaller screens */
+    }
 }
 
 

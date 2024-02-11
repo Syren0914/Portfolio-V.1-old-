@@ -193,6 +193,7 @@ section{
 .title{
     font-size: 3rem;
     text-align: center;
+    
 
 }
 #socials-container{
@@ -206,7 +207,13 @@ section{
 .icon{
     cursor: pointer;
     height: 2rem;
+    transition: 0.5s;
 }
+.icon:hover{
+    transform: translateY(-0.4rem);
+    
+}
+
 
 /*Buttons*/
 .btn-container{
@@ -334,7 +341,9 @@ section{
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+
 }
+
 
 article{
     display: flex;
