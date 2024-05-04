@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="icon" href="cloud.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     
-    <nav id="desktop-nav">
+    <nav id="desktop-nav" data-aos="fade-down">
         <div class="logo">Erdene Batbayar</div>
         <div>
             <ul class="nav-links">
@@ -38,10 +39,10 @@
    </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="Profile_AI-fotor-2023092285917.png" alt="Erdene Batbayar Profile picture"/>
+      <div class="section__pic-container" data-aos="fade-right" data-aos-delay="200">
+        <img src="/img/Profile_AI-fotor-2023092285917.png" alt="Erdene Batbayar Profile picture"/>
     </div>
-    <div class="section__text">
+    <div class="section__text" data-aos="fade-left" data-aos-delay="200">
         <p class="section__text__p1">Hello I'm</p>
         <h1 class="title">Erdene Batbayar</h1>
         <p class="section__text__p2">Software Engineer</p>
@@ -62,19 +63,19 @@
         
         <div id="socials-container">
             <img 
-            src="linkedin.png" 
+            src="/img/linkedin.png" 
             alt="My Linkedin profile" 
             class ="icon" 
             onclick="location.href='https://www.linkedin.com/in/erdene-batbayar-4990a0281/'"
             />
             <img 
-            src="./github.png" 
+            src="/img/github.png" 
             alt="My Github profile" 
             class ="icon" 
             onclick="location.href='https://github.com/Syren0914'"
             />
             <img 
-            src="instagram.png" 
+            src="/img/instagram.png" 
             alt="My Instagram profile" 
             class ="icon" 
             onclick="location.href='https://www.instagram.com/syren0914/'"
@@ -90,7 +91,7 @@
         <div class="section-container">
             <div class="section__pic-container">
                 <img 
-                    src="IMG_3338.jpg" 
+                    src="/img/IMG_3338.jpg" 
                     alt="Profile picture"
                     class="about-pic"/>
         </div>
@@ -98,14 +99,14 @@
             <div class="about-containers">
                 <div class="details-container">
                     <img 
-                        src="experience.png" 
+                        src="/img/experience.png" 
                         alt="experince icon"
                         class="icon"/>
                         <h3>Experience</h3>
                         <p>7+ months <br> Web Development</p>
 
                 </div>
-                <div class="details-container">
+                <div class="details-container" data-aos="fade-down-left">
                     <img 
                         src="education.png" 
                         alt="education icon"
@@ -115,7 +116,7 @@
 
                 </div>
             </div>
-            <div class="text-container">
+            <div class="text-container" data-aos="fade-left">
                 <p>My a name is  Erdene Batbayar, i  am a freshman in college pursuing a Computer Science degree, I am deeply passionate about technology and innovation. My journey in academia is not confined to the classroom; it extends to the world of hardware projects. Beyond the theoretical aspects of my major, I find immense joy in hands-on experiences, where I design circuits, solder components, and bring digital concepts to life in the physical world.
                      These hardware projects are not just hobbies; they are pathways to learning. I believe that there's no substitute for the insights gained when you're troubleshooting real-world issues, making mistakes, and experiencing the thrill of successful creations. It's a journey that cultivates problem-solving skills and a deep understanding of the intricate relationship between software and hardware.
                     
@@ -123,7 +124,7 @@
             </div>
         </div>
     </div>
-    <img src="arrow.png" alt="Arrow Icon" class="icon arrow"
+    <img src="/img/arrow.png" alt="Arrow Icon" class="icon arrow"
     onclick = "location.href = './#experience'">
     
     </section>
@@ -136,7 +137,7 @@
                     <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
                                 <h3>HTML</h3>
@@ -144,25 +145,26 @@
                              </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
                                 <h3>CSS</h3>
-                                <p>Intermediate</p>
+                                <p>Expert</p>
                              </div>
                         </article>
-                        
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
-                                <h3>Material UI</h3>
-                                <p>Beginner</p>
+                                <h3>JavaScript</h3>
+                                <p>Expert</p>
                              </div>
                         </article>
                         
+                        
+                        
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
                                 <h3>React</h3>
@@ -170,14 +172,7 @@
                              </div>
                         </article>
 
-                        <article>
-                            <img src="checkmark.png" alt="experience icon"
-                            class="icon">
-                             <div>
-                                <h3>TypeScript</h3>
-                                <p>Beginner</p>
-                             </div>
-                        </article>
+                        
                     </div>
                 
                 </div>
@@ -185,7 +180,7 @@
                     <h2 class="experience-sub-title">Backend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
                                 <h3>Kotlin</h3>
@@ -193,7 +188,7 @@
                              </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
                                 <h3>Python</h3>
@@ -201,7 +196,7 @@
                              </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
                                 <h3>SQL</h3>
@@ -209,7 +204,7 @@
                              </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
                                 <h3>PHP</h3>
@@ -217,7 +212,7 @@
                              </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="experience icon"
+                            <img src="/img/checkmark.png" alt="experience icon"
                             class="icon">
                              <div>
                                 <h3>JavaScript</h3>
@@ -230,7 +225,7 @@
                 </div>
             </div>
         </div>
-        <img src="arrow.png" alt="Arrow Icon" class="icon arrow"
+        <img src="/img/arrow.png" alt="Arrow Icon" class="icon arrow"
         onclick = "location.href = './#projects'">
 
 
@@ -245,7 +240,7 @@
             <div class="details-container color-container">
                 <div class="article-container">
                     <img 
-                    src="Web.png" 
+                    src="/img/Web.png" 
                     alt="projects 1"
                     class="project-img">
                 </div>
@@ -264,7 +259,7 @@
             <div class="details-container color-container">
                 <div class="article-container">
                     <img 
-                    src="Black White Yellow Minimal and Modern Podcast Studio Logo.png" 
+                    src="/img/Black White Yellow Minimal and Modern Podcast Studio Logo.png" 
                     alt="projects 2"
                     class="project-img">
                 </div>
@@ -285,7 +280,7 @@
                     <img 
                     src="project-3.png" 
                     alt="projects 3"
-                    class="project-img">
+                    class="/img/project-img">
                 </div>
                 <h2 class="experience-sub-title project-title">PAY DAY</h2> <br> <br>
                 <div class="btn-container">
@@ -302,7 +297,7 @@
             <div class="details-container color-container">
                 <div class="article-container">
                     <img 
-                    src="lumthai.png" 
+                    src="/img/lumthai.png" 
                     alt="projects 3"
                     class="project-img">
                 </div>
@@ -325,7 +320,7 @@
         </div>
 
         </div>
-        <img src="arrow.png" alt="Arrow Icon" class="icon arrow"
+        <img src="/img/arrow.png" alt="Arrow Icon" class="icon arrow"
         onclick = "location.href = './#contact'"/>
 
 
@@ -341,18 +336,18 @@
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img 
-                src="email.png" 
+                src="/img/email.png" 
                 alt="Email icon"
                 class="icon contact-icon email-icon">
                 <p><a href="mailto:erdenebatbayar3@gmail.com">Erdenebatbayar3@gmail.com</a></p></div>
             <div class="contact-info-container">
-                <img src="linkedin.png" 
+                <img src="/img/linkedin.png" 
                 alt="LinkedIn icon"
                 class="icon contact-icon"/>
                 <p><a href="https://www.linkedin.com/in/erdene-batbayar-4990a0281/">Linkedin</a></p>
             </div> <br> <br>
             <div class="contact-info-container">
-                <img src="instagram.png" 
+                <img src="/img/instagram.png" 
                 alt="Instagram icon"
                 class="icon contact-icon"/>
                 <p><a href="https://www.instagram.com/syren0914/">Instagram</a></p>
@@ -374,6 +369,10 @@
         <p>Copyright &#169; 2023 Erdene Batbayar. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     
 </body>
 </html>
