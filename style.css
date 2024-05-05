@@ -175,8 +175,22 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+    
 
 }
+.section__pic-container img{
+    object-fit: cover;
+    /* animation: imgFloat 7s ease-in-out infinite; */
+}
+
+@keyframes imgFloat{
+    50%{
+        transform: translateY(10px) ;
+
+    }
+    
+}
+
 .section__text{
     align-self: center;
     text-align: center;
