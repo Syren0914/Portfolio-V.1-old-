@@ -9,7 +9,7 @@ function toggleMenu(){
 
 document.addEventListener('DOMContentLoaded', function() {
     var typingEffect = new Typed(".typedText", {
-      strings: ["Designer", "Youtuber", "Developer"],
+      strings: ["Frontend Developer", "Backend Developer", "ML Engineer"],
       loop: true,
       typeSpeed: 100,
       backSpeed: 80,
